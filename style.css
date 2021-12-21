@@ -1,0 +1,2112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #0b1d2f;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    padding: 0;
+
+}
+
+.navbar li a {
+    display: block;
+    padding: 25px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navbar li a:hover {
+    background-color: #0a2643;
+}
+
+.call-link a {
+    display: block;
+    background: #0287f2;
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 30px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.call-link a:hover {
+    background: #fff;
+    color: #0278f2;
+}
+
+.banner {
+    background: url(img/unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 285px;
+
+    padding-bottom: 290px;
+}
+
+.banner-content p {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.banner-content h2 {
+    font-size: 36px;
+    line-height: 47px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.banner-content a.bg-1 {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #0278f2;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    transition: .5s;
+    display: inline-block;
+}
+
+.banner-content a.bg-1:hover {
+    background-color: #fff;
+    color: #0278f2;
+}
+
+.banner-content a.bg-2 {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fff;
+    color: #0278f2;
+    padding: 20px 30px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.banner-content a.bg-2:hover {
+    background-color: #0278f2;
+    color: #fff;
+}
+
+.insurance-service {
+    background-size: cover;
+    background-position: center;
+    padding-top: 85px;
+    padding-bottom: 47px;
+}
+
+.insurance-service span {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0278f2;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.insurance-service h4 {
+    font-size: 32px;
+}
+
+.agent a {
+    border: 2px solid #0278f2;
+    border-radius: 5px;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.single-service {
+    padding: 40px 30px 38px 32px;
+    margin-top: 40px;
+    transition: .5s;
+}
+
+.single-service:hover {
+    box-shadow: 0 0 0 1px #e1e1e1;
+}
+
+.service-content {
+    padding-left: 32px;
+}
+
+.service-content h3 {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.service-content p {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.our-achievements {
+    background: url(img/layer.png);
+    background-size: cover;
+}
+
+.achievement-title {
+    padding-top: 90px;
+}
+
+.achievement-title p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #0278f2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.achievement-title h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.single-acquired {
+    text-align: center;
+}
+
+.acquired-img {
+    margin-bottom: 26px;
+}
+
+.acquired-content span {
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #444444;
+}
+
+.acq-team-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.single-acquired-mem {
+    position: relative;
+}
+
+.slider-btn button {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    color: #000;
+    border: 0;
+    border-radius: 50%;
+    top: 100px;
+    left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.slider-btn button.right {
+    left: auto;
+    right: -10px;
+}
+
+.saving {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.saving-title p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0278f2;
+    margin-bottom: 20px;
+}
+
+.saving-title h2 {
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.saving-img img {
+    width: 100%;
+}
+
+.single-input {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.single-input input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+
+}
+
+.single-input input:focus {
+    outline: none;
+}
+
+.single-input i {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #888888;
+}
+
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+select:focus {
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: #0278f2;
+    color: #fff;
+    font-weight: 700;
+}
+
+.testimonial {
+    background: url(img/client.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 85px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.testimonial:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, #252222, transparent);
+}
+
+.testimonial-title {
+    position: relative;
+}
+
+.testimonial-title h3 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #0278f2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.testimonial-title h4 {
+    font-size: 32px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 52px;
+}
+
+.client-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial-content {
+    max-width: 600px;
+    padding: 20px;
+    background: #00000020;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.testimonial-content p {
+    font-size: 17px;
+    line-height: 30px;
+    font-style: italic;
+    color: #fff;
+}
+
+.single-client {
+    position: relative;
+}
+
+.client-text {
+    margin-left: 32px;
+    padding-top: 15px;
+}
+
+.client-text span {
+    color: #f7d726;
+}
+
+.client-text h3 {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.client-dot span {
+    width: 10px;
+    height: 10px;
+    background: #b4b6b7;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.client-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin-top: 50px;
+}
+
+span.active {
+    background: #0278f2;
+}
+
+.our-team {
+    padding-top: 90px;
+    padding-bottom: 85px;
+}
+
+.team-title {
+    position: relative;
+}
+
+.team-title .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.team-title .button button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    color: #888888;
+    border-radius: 5px;
+}
+
+.team-title .button button:hover {
+    color: #000;
+}
+
+.team-title p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #0278f2;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.team-title h3 {
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+
+.team-mem-img {
+    position: relative;
+}
+
+.team-mem-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.social-link {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link a {
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+    transition: .3s;
+}
+
+.social-link a:hover {
+    background: #0177f2;
+    color: #fff;
+}
+
+.team-member:hover .social-link {
+    opacity: 1;
+}
+
+.team-content {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.team-content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.team-content h5 {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #0278f2;
+    margin-bottom: 0;
+}
+
+.brand-img img {
+    width: 100%;
+}
+
+.brand-area {
+    padding-bottom: 50px;
+}
+
+.brand-name {
+    border-top: 1px solid #f1f1f1;
+    padding-top: 40px;
+}
+
+footer {
+    background: #0c2034;
+    padding-top: 68px;
+    padding-bottom: 14px;
+}
+
+.footer-content h3 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 32px;
+    color: #6e7781;
+}
+
+.footer-content .logo {
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #6e7781;
+}
+
+.f-social-link a {
+    margin-right: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #c4c4c4;
+}
+.f-social-link a:last-child {
+    margin-right: 0;
+}
+.f-social-link a:hover {
+    color: #0177f2;
+}
+
+.f-social-link a:last-child {
+    margin-right: 0;
+}
+
+footer span {
+    font-size: 14px;
+    line-height: 30px;
+    color: #d4d4d4;
+    display: block;
+    text-align: center;
+    border-top: 1px solid #253749;
+    padding-top: 10px;
+    margin-top: 40px;
+}
+
+.top-header {
+    padding: 16px 0;
+}
+
+.contact span {
+    color: #0460be;
+}
+
+.contact p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.t-social-link a {
+    text-decoration: none;
+    margin: 0 22px;
+    color: #fff;
+    transition: .4s;
+}
+.t-social-link a:hover {
+    color: #0d6efd;
+}
+
+.navbar-banner-section {
+    background: url(img/car-driver.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar-banner-section:before {
+    content: "";
+    position: absolute;
+    background: #0000006b;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.logo-2 {
+    display: inline-block;
+}
+
+.navbar-2 {
+    border-bottom: 1px solid #6b6a6a;
+    padding: 16px 0;
+    position: relative;
+    z-index: 1;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 11px;
+    position: relative;
+}
+
+ul.menu li a:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: #fff;
+    top: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: .4s;
+}
+
+.menu li a:hover:after {
+    width: 100%;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.nav-row span a {
+    width: 50px;
+    height: 50px;
+    background: #0278f2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-2 {
+    padding-top: 200px;
+    padding-bottom: 240px;
+    position: relative;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.insurance-section {
+    margin-top: -120px;
+    position: relative;
+}
+
+.single-insurance {
+    padding: 40px 50px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.insurance-img {
+    margin-bottom: 22px;
+}
+
+.single-insurance h3 {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.single-insurance p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #696969;
+}
+
+.life-insurance {
+    padding-top: 90px;
+}
+
+.life-i-img img {
+    width: 100%;
+}
+
+.life-i-content {
+    padding-top: 50px;
+}
+
+.life-i-content span {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #0278f2;
+    margin-bottom: 20px;
+}
+
+.life-i-content h2 {
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.life-i-content p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #5d5d5d;
+    margin-bottom: 40px;
+}
+
+.life-i-content a {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #0278f2;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: 0;
+    display: inline-block;
+    transition: .4s;
+}
+
+.life-i-content a:hover {
+    background: #f5f5f5;
+    color: #0278f2;
+}
+
+.insurance-service-title {
+    margin-bottom: 50px;
+}
+
+.insurance-service-title span {
+    font-size: 16px;
+}
+
+.single-i-img img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.single-i-content {
+    padding: 30px 70px;
+}
+
+.single-i-content h3 {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.single-i-content p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #444444;
+}
+
+.cta-section {
+    background: #0c2034;
+    padding: 90px 0;
+}
+
+.cta-title h2 {
+    font-size: 34px;
+    line-height: 47px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.call-now {
+    text-align: center;
+    border: 1px solid #3d4d5d;
+    padding: 50px;
+    height: 190px;
+}
+
+.call-now span {
+    font-size: 18px;
+    line-height: 47px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.call-now h2 {
+    font-size: 26px;
+    line-height: 29px;
+    color: #0278f2;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.sing-up {
+    padding: 50px;
+    background: #253749;
+    height: 190px;
+}
+
+.sing-up span {
+    display: block;
+    font-size: 18px;
+    line-height: 47px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.input-button {
+    display: flex;
+    justify-content: center;
+}
+
+.input-button input {
+    padding-left: 20px;
+    background: #253749;
+    border: 1px solid #515f6d;
+    border-radius: 5px 0 0 5px;
+}
+
+.input-button input:focus {
+    outline: none;
+    color: #666;
+}
+
+.input-button button {
+    border-radius: 0 8px 8px 0;
+    border: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.insurance-pricing {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.i-p-title {
+    text-align: center;
+}
+
+.i-p-title p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #438ef4;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.i-p-title h2 {
+    font-size: 32px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
+
+.single-card {
+    padding: 50px;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: .6s;
+}
+
+.single-card {
+    padding: 50px;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+}
+
+.single-card span {
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 32px;
+    color: #989898;
+}
+
+.single-card h3 {
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.single-card h4 {
+    font-size: 42px;
+    line-height: 24px;
+    color: #0278f2;
+    margin-bottom: 12px;
+}
+
+.single-card h5 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #c3c3c3;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 48px;
+}
+
+.single-card p {
+    font-size: 15px;
+    line-height: 40px;
+    color: #505050;
+    margin-top: 48px;
+    margin-bottom: 31px;
+}
+
+.single-card a {
+    display: block;
+    padding: 10px 42px;
+    background: #0278f2;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0;
+    transition: .3s;
+}
+
+.single-card a:hover {
+    background-color: #f2f2f2;
+    color: #0278f2;
+}
+
+span.tag {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    width: 200px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #0278f2;
+    color: #fff;
+    right: -80px;
+    top: -37px;
+    text-transform: uppercase;
+    transform: rotate(38deg);
+}
+
+.single-card:hover {
+    transform: scale(1.05);
+}
+
+.single-team-2 {
+    text-align: center;
+}
+
+.team-img-2 {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.team-img-2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-content-2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.team-content-2 h3 {
+    font-size: 18px;
+    line-height: 39px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.team-content-2 h5 {
+    font-size: 15px;
+    line-height: 21px;
+    color: #909192;
+    margin: 0;
+}
+
+.social-link-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0278f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .4s;
+}
+
+.social-link-2 a {
+    margin: 0 8px;
+    color: #fff;
+}
+
+.single-team:hover .social-link-2 {
+    opacity: .8;
+}
+
+.brand-area.bg {
+    background: #0c2034;
+    padding: 0;
+}
+
+.brand-name-2 {
+    padding: 50px 0;
+    border-bottom: 1px solid #253749;
+}
+
+footer.pd {
+    padding-top: 70px;
+    padding-bottom: 24px;
+}
+
+/* home-3 start */
+.bg {
+    background: none;
+}
+
+.top-header-bg {
+    padding: 16px 0;
+}
+
+.logo-3 {
+    width: 150px;
+}
+
+.logo-3 img {
+    width: 100%;
+}
+
+.top-header-bg .contact span {
+    color: #0278f2;
+}
+
+.contact span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.call-mail {
+    margin-left: 20px;
+    margin-right: 65px;
+}
+
+.days {
+    margin-left: 27px;
+    margin-right: 50px;
+}
+
+.call-mail p,
+.days p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+.contact a {
+    padding: 8px 15px;
+    background: #0278f2;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+ul.nav-menu {
+    display: flex;
+    margin-bottom: 0;
+}
+
+ul.nav-menu li {
+    list-style: none;
+    margin-right: 50px;
+    position: relative;
+}
+
+ul.nav-menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.keyword input {
+    border: 0;
+}
+
+.keyword input:focus {
+    outline: none;
+}
+
+.navbar-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+ul.nav-menu li a:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: #0278f2;
+    right: 0;
+    left: 0;
+    top: 30px;
+    bottom: 0;
+    transition: .4s;
+}
+
+ul.nav-menu li a:hover:after {
+    width: 100%;
+}
+
+.banner-3 {
+    background: url(img/banner-3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 213px;
+    padding-bottom: 186px;
+}
+
+.banner-title {
+    width: 585px;
+    background: #fbfbfb73;
+    padding: 48px 50px;
+}
+
+.banner-title span {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #0278f2;
+    margin-bottom: 20px;
+    display: block
+}
+
+.banner-title h2 {
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 27px;
+}
+
+a.defeult-btn {
+    background: #0278f2;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+a.defeult-btn:hover {
+    background: #aaa;
+    color: #fff;
+}
+
+.our-feature {
+    padding: 90px 0;
+}
+
+.feature-title span {
+    font-size: 16px;
+    line-height: 20px;
+    color: #0278f2;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.feature-title h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.feature-title p {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 40px;
+    color: #c3c3c3;
+}
+
+.single-feature {
+    background: #000;
+    color: #fff;
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.feature-img {
+    margin-bottom: 30px;
+}
+
+.feature-content h3 {
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.feature-content p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #989a9e;
+    margin-bottom: 0;
+}
+
+.insurance-service.bg-1 {
+    background: #f2f8fe;
+    padding: 90px 0;
+}
+
+.acquired-section.second {
+    padding-bottom: 70px;
+    border-bottom: 1px solid #3d4d5d;
+    position: relative;
+    z-index: 1;
+}
+
+.acquired-content.second span {
+    z-index: 1;
+    color: #fff;
+}
+
+.our-achievement {
+    background: url(img/agent.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 150px;
+}
+
+.our-achievement:after {
+    content: '';
+    position: absolute;
+    background: #0000009e;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.single-acquired.second {
+    position: relative;
+    margin: 0;
+    z-index: 1;
+    color: #fff;
+}
+
+.achievment-title {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.achievment-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-2 {
+    height: 200px;
+    padding: 65px 117px 65px 50px;
+    background: #fff;
+    margin-top: -120px;
+    position: relative;
+}
+
+.contact-img {
+    margin-right: 38px;
+}
+
+.contact-text span {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 14px;
+}
+
+.mail {
+    height: 200px;
+    padding: 50px;
+    background: #fff;
+    margin-top: -120px;
+    position: relative;
+}
+
+.mail-img {
+    margin-right: 40px;
+}
+
+.mail-content {
+    width: 350px;
+}
+
+.mail-content span {
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.input {
+    width: 100%;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 50px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.button button {
+    border-radius: 0px 5px 5px 0;
+}
+
+.single-team-3 {
+    position: relative;
+}
+
+.team-img {
+    width: 270px;
+    height: 270px;
+}
+
+.team-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team-content-2.ps {
+    position: absolute;
+    left: 50px;
+    top: 163px;
+    color: #fff;
+}
+
+.team-content-2.ps h3 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.team-content-2.ps span {
+    font-size: 15px;
+    line-height: 25px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.social-link-3 a {
+    margin-right: 15px;
+    color: #fff;
+}
+
+.social-link-3 a:last-child {
+    margin-right: 0;
+}
+
+.social-link-3 {
+    opacity: 0;
+    transition: .5s;
+    transform: scaleY(0);
+}
+
+.single-team-3:hover .social-link-3 {
+    opacity: 0.8;
+    transform: scale(1);
+}
+
+.team-cont-text {
+    margin-top: 0;
+    transition: .3s;
+}
+
+.single-team-3:hover .team-cont-text {
+    margin-top: -25px;
+    transition: .3s;
+}
+
+.testimonial-section {
+    background: #f2f8fe;
+    padding: 90px 0;
+}
+
+.test-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.test-title-text p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #0278f2;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.testimonial-content-2 {
+    background: #fff;
+    padding: 40px;
+    position: relative;
+    margin-top: 42px;
+    margin-bottom: 33px;
+}
+
+.testimonial-content-2.pd {
+    margin-top: 42px;
+}
+
+.client-img {
+    margin-left: 30px;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon span {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-text.pd {
+    padding-top: 0;
+}
+
+.client-text.pd h3 {
+    color: #000;
+}
+
+.testimonial-content-2:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+    bottom: -10px;
+    left: 60px;
+}
+
+footer.pd-2 {
+    padding: 0;
+}
+
+.lg-link {
+    padding-top: 30px;
+    border-bottom: 1px solid #253749;
+    padding-bottom: 45px;
+    margin-bottom: 70px;
+}
+
+.f-social-link.second a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-social-link.second {
+    display: flex;
+}
+
+/* home-4 */
+
+header.bg-1 {
+    padding-top: 20px;
+    padding-bottom: 17px;
+    background: #f5f5f5;
+}
+
+.header-link p {
+    margin-bottom: 0;
+}
+
+.h-social-link a {
+    margin: 0 13px;
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-mail span {
+    width: 50px;
+    height: 50px;
+    background: #f5f5f5;
+    color: #4399f3;
+    border-radius: 50%;
+}
+
+.days span {
+    width: 50px;
+    height: 50px;
+    background: #f5f5f5;
+    color: #4399f3;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.call-mail p {
+    color: #000;
+}
+
+.day-time p {
+    color: #000;
+}
+
+/* navbar-4 */
+.navbar-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+.banner-logo img {
+    width: 150px;
+}
+.navbar-4 .nav-menu-2 {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.navbar-4 .nav-menu li {
+    position: none;
+}
+
+.navbar-4 .nav-menu-2 li a:hover {
+    background: #0287f2;
+    color: #fff;
+}
+
+.navbar-4 .nav-menu-2 li a {
+    padding: 27px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    display: inline-block;
+    transition: .5s;
+}
+
+.navbar-4 .search-icon i {
+    margin-right: 22px;
+}
+
+.search-bar {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* navbar-4 end */
+
+/* banner-4  */
+.banner-content.second {
+    text-align: left;
+    position: relative;
+}
+
+.banner-content.second h2 {
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.banner-4 {
+    background: url(img/doctor-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 240px 0;
+    position: relative;
+}
+
+.banner-4:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000006b;
+    left: 0;
+    top: 0;
+}
+
+/* banner-4 end */
+
+/* take care */
+.take-care {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.care-img img {
+    width: 100%;
+}
+.care-content {
+    padding-top: 110px;
+}
+
+.care-content p {
+    font-size: 16px;
+    line-height: 39px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    color: #0278f2;
+}
+
+.care-content h2 {
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.flex p {
+    color: #4a4a4a;
+}
+
+.flex:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background: #e1e1e1;
+    top: 42px;
+}
+
+.flex:after {
+    content: "";
+    position: absolute;
+    width: 96%;
+    height: 8px;
+    background: #0278f2;
+    top: 42px;
+}
+
+.flex.second {
+    margin-top: 30px;
+}
+
+.flex.second:after {
+    width: 85%;
+}
+
+.flex.third {
+    margin-top: 30px;
+}
+
+.flex.third:after {
+    width: 98%;
+}
+
+/* take care end */
+
+/* insurance service 4 */
+.insurance-service.bg-2 {
+    background: #0c2034;
+    color: #fff;
+    padding: 90px 0;
+}
+
+.service-img-2 {
+    margin-bottom: 30px;
+}
+
+.service-content.two {
+    padding-left: 0;
+}
+
+.single-service.two:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* insurance service 4 end */
+
+/* our team 4 */
+
+.team-img-4 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.single-team-4 {
+    position: relative;
+    margin-top: 38px;
+}
+
+.team-content-text-4 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: #0000004a;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.single-team-4:hover .team-content-text-4 {
+    background: #4194eaad;
+}
+
+.team-cont-text-4 {
+    margin-bottom: -30px;
+}
+
+.team-cont-text-4 h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.social-link-4 {
+    opacity: 0;
+    text-align: center;
+    transform: scale(0);
+    transition: .4s;
+    margin-top: 0;
+}
+
+.social-link-4 a {
+    margin: 0 13px;
+    color: #fff;
+}
+
+.single-team-4:hover .social-link-4 {
+    transform: scale(1);
+    opacity: 0.8;
+    margin-top: 42px;
+}
+
+/* our team 4 end */
+
+/* client */
+.client {
+    background: #f2f8fe;
+    padding: 90px 0;
+}
+
+.client-title-text p {
+    text-transform: uppercase;
+    color: #0278f2;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.client-title-text h2 {
+    font-size: 32px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.client-content p {
+    font-size: 17px;
+    line-height: 30px;
+    font-style: italic;
+    margin-bottom: 22px;
+}
+
+.client-img.ml {
+    margin-left: 0;
+}
+
+.single-card.two h2 {
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 22px;
+}
+
+.single-card.two input {
+    display: block;
+    width: 100%;
+    padding: 20px 34px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #d7d7d7;
+    border-radius: 8px;
+}
+
+.single-card.two {
+    background: #fff;
+    border: 0;
+}
+
+.single-card.two:hover {
+    transform: none;
+}
+
+.icon.client {
+    padding: 0;
+}
+
+h3.clr {
+    color: #000;
+}
+
+/* client end */
+
+/* latest news */
+.letest-news {
+    padding: 90px 0;
+}
+
+.news-title {
+    text-align: center;
+}
+
+.news-title p {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2087f2;
+    margin-bottom: 6px;
+}
+
+.news-title h2 {
+    text-transform: capitalize;
+    margin-bottom: 43px;
+}
+
+.news-img {
+    margin-bottom: 30px;
+}
+
+.news-img img {
+    width: 100%;
+    
+}
+
+.news-tag {
+    width: 70px;
+    height: 70px;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+    margin-right: 15px;
+}
+
+.news-tag p {
+    margin-bottom: 0;
+    color: #0278f2;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.news-tag span {
+    font-size: 14px;
+}
+
+.news-content h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.n-icon {
+    font-size: 13px;
+    margin-right: 7px;
+    color: #c7c7c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-text span {
+    font-size: 13px;
+    color: #c7c7c7;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+/* latest news end */
+
+.footer-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 54px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid #253749;
+    margin-bottom: 72px;
+}
+
+.footer-title p {
+    font-size: 22px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-title h2 {
+    font-size: 36px;
+    line-height: 29px;
+    color: #0287f2;
+}
+
+/* insurace-1 */
+.navbar-banner-section.insurance {
+    background: #000;
+}
+
+.tarvel-insurance-section {
+    padding: 80px 0;
+    background: #000;
+}
+
+.travel-insurance-tag {
+    width: 370px;
+    background: #fff;
+    padding: 40px;
+    position: relative;
+}
+
+.home span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.home span:last-child {
+    color: #888585;
+}
+
+/* insurace end */
+
+/* Mobile bar */
+.mobile-bar {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.acquired-section {
+    margin-bottom: 40px;
+}
+
+.top-left-header p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.top-left-header span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.top-left-header a{
+    display: flex;
+    text-decoration: none;
+}
+
+/* service-img 3 */
+.service-img-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
